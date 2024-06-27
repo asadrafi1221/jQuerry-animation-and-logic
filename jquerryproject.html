@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .form-div {
+        background-color: black;
+        color:white;
+        padding: 2vw;
+        justify-content: space-between;
+        gap:30px;
+        display: flex;
+        flex-direction: column;
+        width:30vw;
+        border-radius: 10px;
+        transform: translateX(10%);
+
+    }
+.data{
+    position:absolute;
+    background-color: red;
+    color:white;
+    padding: 20px;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    height:30vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  display: block;
+  
+  display: none;
+
+
+
+}
+    input {
+        height:7vh;
+        font-size: 15px;
+    }
+    .p-para{
+        display: none;
+    }
+</style>
+<body>
+    <button>click me</button>
+    <div class="form-div">
+        <p>enter name plz</p>
+        <input type="text" placeholder="enter name">
+        <p>enter password plz</p>
+       
+        <input class='p-input' type="text" placeholder="enter passowrd">
+        <p >plz confirm password </p>
+
+        <input type="text" placeholder="confirm-password" class="c_pass">
+    <p class="p-para">plz correct your passowrd section</p>
+    </div>
+<div class="data">
+    <h1>name was helo</h1>
+    <h3>password was passowrd</h3>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
